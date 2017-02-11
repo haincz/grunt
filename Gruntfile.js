@@ -11,7 +11,7 @@ module.exports = function(grunt) {
           'style.css': 'style.sass'
         }
       }
-    }
+    },
 	
 	imagemin: {
   		dynamic: {
@@ -22,7 +22,7 @@ module.exports = function(grunt) {
   				dest: 'images/build/'
   			}]
   		}
-  	}
+  	},
 	
 	watch: {
     scripts: {
